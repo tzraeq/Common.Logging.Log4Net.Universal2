@@ -1,2 +1,3 @@
 # Common.Logging.Log4Net.Universal
-Common Logging adapter for Log4Net
+Thanks to mperdeck
+This a nuget package, Common Logging adapter for latest version of log4net, published by using NuGet Package Explorer.

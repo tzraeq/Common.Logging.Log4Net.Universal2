@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Common.Logging.Log4Net.Universal2</id>
@@ -6,10 +6,10 @@
     <title>Common.Logging.Log4Net.Universal2</title>
     <authors>mperdeck,tzraeq</authors>
     <owners>tzraeq</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/tzraeq/Common.Logging.Log4Net.Universal2</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Common Logging Adapter for Log4Net. Unlike Common.Logging.Log4Net1215 etc., this package is not tied to a particular version of Log4Net, so does not need to be upgraded for each new version of Log4Net. Update log4Net to version >= 2.0.10</description>
+    <description>Common Logging Adapter for Log4Net. Unlike Common.Logging.Log4Net1215 etc., this package is not tied to a particular version of Log4Net, so does not need to be upgraded for each new version of Log4Net. Update log4Net to version &gt;= 2.0.10</description>
     <language>en-US</language>
     <tags>log4net common logging adapter</tags>
     <dependencies>
@@ -19,8 +19,8 @@
     </dependencies>
   </metadata>
   <files>
-	<file src="content\app.config.transform" target="content\app.config.transform" />
-    <file src="content\web.config.transform" target="content\web.config.transform" />  	
+    <file src="content\app.config.transform" target="content\app.config.transform" />
+    <file src="content\web.config.transform" target="content\web.config.transform" />
     <file src="lib\net462\Common.Logging.Log4Net.Universal.dll" target="lib\net462\Common.Logging.Log4Net.Universal.dll" />
   </files>
 </package>
